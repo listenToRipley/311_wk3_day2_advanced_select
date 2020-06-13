@@ -42,7 +42,6 @@ SELECT DISTINCT SUBSTR(uc.phone1, 1, 3) AS areacode, COUNT(SUBSTR(uc.phone1, 1, 
 USE aca311week3day2;	
 SELECT u.first_name, MIN(u.first_name) AS firstNameMin, ua.county, COUNT(ua.county) AS countyCount FROM users u JOIN usersaddress ua WHERE u.id = ua.id GROUP BY ua.county HAVING COUNT(ua.county) >= 10;
 
-
 ## Query Responses
 
 1. Sums
@@ -58,7 +57,6 @@ SELECT u.first_name, MIN(u.first_name) AS firstNameMin, ua.county, COUNT(ua.coun
   * first_name: AVERY 
   * county: Orange
   * county total: 11
-
 
 ## Summary
 
