@@ -1,10 +1,10 @@
 DROP TABLE IF EXISTS usersContact, usersAddress, users;
 
 CREATE TABLE users (
-  id INT NOT NULL AUTO_INCREMENT,
-  first_name VARCHAR(50),
-  last_name VARCHAR(50),
-  PRIMARY KEY (id)
+    id INT NOT NULL AUTO_INCREMENT,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    PRIMARY KEY (id)
 );
 
 CREATE TABLE usersContact (
